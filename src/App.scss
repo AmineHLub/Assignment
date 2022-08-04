@@ -1,4 +1,5 @@
 .App {
+  z-index: -1;
   width: 100%;
   height: 100%;
   display: flex;
@@ -8,7 +9,7 @@
     text-align: center;
     margin: 25px 10px 15px 10px;
     padding: 5px 10px;
-    background-color: #272727;
+    background-color: #ec7600;
     border-radius: 10px;
     color: white;
   }
@@ -40,7 +41,7 @@
           object-fit: cover;
           border-radius: 10px;
           &.active {
-            background-color: orange;
+            background-color: #f68616;
           }
         }
         p {
@@ -63,6 +64,7 @@
         position: absolute;
         top: 0;
         bottom: 0;
+        z-index: 0;
         width: 30%;
         display: flex;
         flex-direction: column;
@@ -94,13 +96,11 @@
   $width: 375px;
   @media (hover: none) {
   .App{
-    .diaporama-image-container{
-      button {
-        display: none;
+    .diaporama-image-button {
+      display: none !important;
       }
       img {
         margin: 0;
       }
     }
   }
-}

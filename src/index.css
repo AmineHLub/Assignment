@@ -31,3 +31,23 @@ code {
     'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: inherit;
+  border-left: 1px solid white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 166, 0, 0.632);
+  border-radius: 7px;
+  height: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
+}
