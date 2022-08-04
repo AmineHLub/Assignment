@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   .header {
     text-align: center;
     margin: 25px 10px 15px 10px;
@@ -13,7 +14,6 @@
     border-radius: 10px;
     color: white;
   }
-
 
   .thumbnail-container {
     list-style-type: none;
@@ -26,6 +26,7 @@
     overflow-y: hidden;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+
     li {
       display: flex;
       flex-direction: column;
@@ -34,73 +35,84 @@
       height: 150px;
       margin: 0 5px;
       border-radius: 15px;
-        img {
-          padding: 5px;
-          height: 100px;
-          width: 100px;
-          object-fit: cover;
-          border-radius: 10px;
-          &.active {
-            background-color: #f68616;
-          }
-        }
-        p {
-          text-align: center;
-          word-break: break-all;
-        }
-      }
-    }
 
-    .diaporama-image-container {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      height: 100%;
       img {
-        width: 100%;
-        max-width: 400px;
-      }
-      .diaporama-image-button {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        z-index: 0;
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        &.prev{
-          left: -50px;
-        }
-        &.next{
-          right: -50px;
-          img {
-            align-self: flex-end;
-          }
-        }
-        img {
-          display: none;
-          cursor: pointer;
-          width: 30px;
-          height: 30px;
-          object-fit: cover;
-        }
-        &:hover img {
-          display: block;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+
+        &.active {
+          background-color: #f68616;
         }
       }
 
+      p {
+        text-align: center;
+        word-break: break-all;
+      }
     }
   }
 
-  $width: 375px;
-  @media (hover: none) {
-  .App{
+  .diaporama-image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    img {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .diaporama-image-button {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 0;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &.prev {
+        left: -50px;
+      }
+
+      &.next {
+        right: -50px;
+
+        img {
+          align-self: flex-end;
+        }
+      }
+
+      img {
+        display: none;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+      }
+
+      &:hover img {
+        display: block;
+      }
+    }
+  }
+}
+
+$width: 375px;
+
+@media (hover: none) {
+  .App {
     .diaporama-image-button {
       display: none !important;
-      }
-      img {
-        margin: 0;
-      }
+    }
+
+    img {
+      margin: 0;
     }
   }
+}
