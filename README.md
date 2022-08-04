@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Netlify](https://mwzr-task.netlify.app/)
 
 
 ## Getting Started
@@ -22,7 +22,6 @@ To get a local copy up and running follow these simple example steps.
 
 - Run `npm i` 
 - Run `npm start` 
-
 
 
 ## Authors
