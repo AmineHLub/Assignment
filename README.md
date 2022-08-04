@@ -1,18 +1,15 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# WiSR Assignment
 
-# Project Name
+> This is an image slider that gets images from api and show only the first six.
 
-> One paragraph statement about the project.
+# Screenshot
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- ReactJS, Scss
 
 ## Live Demo
 
@@ -21,39 +18,20 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- Run `npm i` 
+- Run `npm start` 
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Mohamed Amine**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AmineHLub](https://github.com/AmineHLub)
+- Twitter: [@Amino47612441](https://twitter.com/Amino47612441)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-amine-hajltaief-b18863163/)
 
 ## 🤝 Contributing
 
